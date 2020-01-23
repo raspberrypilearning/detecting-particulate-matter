@@ -1,44 +1,11 @@
 ## Design
 
+Unlike the humidity/temperature sensor you used in the first project of this pathway, the SDS011 Particulate Matter Sensor connects to your Raspberry Pi via the USB ports.
 
-## Humidity and Temperature with DHT22
-https://github.com/adafruit/Adafruit_Python_DHT
+In your research you might have discovered that the SDS011 sensor sends 10 bytes of data in a packet to your Raspberry Pi, via the serial bus. However, within that packet, the data you need is in the dataframe, which is sent in bytes 2 through to 7.
 
-## Cloud
-https://sense-iot.com/
-https://io.adafruit.com/
+In particular, you are interested in bytes 2 and 3 for the 2.5µm particles and bytes 4 and 5 for the 10µm particles.
 
-## Setup
-https://towardsdatascience.com/sensing-the-air-quality-5ed5320f7a56
+Your program will have to read these bytes over a set time period, convert them to integers, and then average their values. After that it will need to upload the data to an IOT platform or display the data graphically on your Raspberry Pi.
 
-### Define
-Air quality is an issue, especially in urban areas. Monitor and warn people of AQI in their area
-
-### Discover
-Look into types of polution, but guide towards particulate matter.
-Look into devices that can measure these values
-
-### Design
-Guided design of sensor housing. Sensor needs airflow, but Pi needs to be protected from rain.
-
-### Decompose
-- Connect sensor and test sensor
-- Connect to a cloud platform
-- Test upload to platform
-- Create full script
-- Automate runs
-- Add to housing
-
-### Develop
-Basic instructions for each of the above, with some guidance and opportunities for independence
-
-1. Connect up sensor, install libraries then have them using the documentation to get the pm2.5 and pm10 values
-1. Choose a platform to upload to. Learners can choose and use documentation to figure out the API
-1. Test uploading a small amount of data
-1. Full script to automate upload of data once per minute. 
-1. Humidity correction as an optional extra.
-1. Design a housing
-1. Create a housing and install
-
-### Demonstrate
-Publishing the available data for local use.
+Optionally, you can use the humidity data from the previous project to fine tune your particulate matter sensor's data.

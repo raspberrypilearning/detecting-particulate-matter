@@ -1,38 +1,17 @@
-## Research
-http://aqicn.org/media/
-https://en.wikipedia.org/wiki/Air_quality_index
+## Define
 
-## Humidity and Temperature with DHT22
-https://github.com/adafruit/Adafruit_Python_DHT
+Now that your air quality monitoring station can measure atmospheric tempersature and humidity, it is time to start looking at polutants in the air.
 
+Particulate matter are microscopic particles of solids or liquids that are suspended in the air. You'll probably be most familiar with smoke as a form of particulate matter, produced when fuels are burned.
 
-## Cloud
-https://sense-iot.com/
+Particluate matter is extremely small and is often categorised into different sizes.
 
-## Setup
-https://towardsdatascience.com/sensing-the-air-quality-5ed5320f7a56
+![image showing the size of sand grains, a human hair, and 10µm and 2.5µm particles.](https://www.epa.gov/sites/production/files/2016-09/pm2.5_scale_graphic-color_2.jpg)
 
-### Define
-Air quality is an issue, especially in urban areas. Monitor and warn people of AQI in their area
+Examples of particles less than 10µm in diameter exist in the air are dust and pollen.
 
-### Discover
-Look into types of polution, but guide towards particulate matter.
-Look into devices that can measure these values
+Examples of particles less than 2.5µm are in the air are smoke and viruses.
 
-### Design
-Guided design of sensor housing. Sensor needs airflow, but Pi needs to be protected from rain.
+![graph showing the size of various types of particulate matter](https://en.wikipedia.org/wiki/File:Airborne-particulate-size-chart.svg#/media/File:Airborne-particulate-size-chart.svg)
 
-### Decompose
-- Connect sensor
-- Test sensor
-- Connect to a cloud platform
-- Test upload to platform
-- Create full script
-- Automate runs
-- Add to housing
-
-### Develop
-Basic instructions for each of the above, with some guidance and opportunities for independence
-
-### Demonstrate
-Publishing the available data for local use.
+The SDS011 is a sensor that can detect particulate matter in the air. In this project you will use the sensor to record values for the particulate matter in your local area and upload the data to an Internet Of Things service, so that others can view and use your data.

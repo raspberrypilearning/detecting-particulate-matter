@@ -1,19 +1,19 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+![global map of particulate pollution](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/483897main_Global-PM2.5-map.JPG/1024px-483897main_Global-PM2.5-map.JPG)
 
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+In this project in the pathway, you will add a sensor to your air quality monitor, to detect particulate matter in the environment.
+
 --- /no-print ---
 
 --- print-only ---
+
 ![Complete project](images/showcase_static.png)
+
 --- /print-only ---
 
 --- collapse ---
@@ -22,17 +22,12 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ [An SDS011 particulate matter sensor](https://www.amazon.co.uk/CUHAWUDBA-Sensor-Precision-Quality-Detection/dp/B083ZNZWKW/ref=sr_1_2?keywords=sds011&qid=1579769294&sr=8-2)
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
 
 ### Downloads
-
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -41,8 +36,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ How to read data from an SDS011 PM sensor
++ How to present data on an IOT platform
 
 --- /collapse ---
 

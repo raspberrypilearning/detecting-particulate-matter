@@ -25,3 +25,7 @@ Connect the sensor to you Raspberry Pi using any of the USB ports.
 ![SDS011 connected to a Raspberry Pi](images/connected.png)
 
 --- /task ---
+
+The sensor's fan should start up, and an LED on the underside of the sensor will begin flashing, as well as a second LED on the USB adaptor.
+
+![SDS011 connected with flashing LEDs](images/switched_on.gif)

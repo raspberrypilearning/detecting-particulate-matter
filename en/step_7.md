@@ -1,4 +1,4 @@
-## Develop - Test your sensor
+## Develop - Read the sensor
 
 Here is the datasheet for the SDS011 sensor.
 
@@ -47,19 +47,22 @@ This is telling you that the SDS011 sensor is on `\dev\ttyUSB0`.
 
 Open up a text editor or your prefered Python IDE
 
-To read data from the sensor, you can use the Python serial library.
+To read data from the sensor, you can use the `pyserial` library.
 
-```python
-from serial import Serial
-
-pmd = Serial('/dev/ttyUSB0')
-
---- /task ---
+[[[nix-python-reading-serial-data]]]
 
 --- task ---
 
-You can see the bytes that 
+Use the `pyserial` library to read the bytes you are interested in.
+
+| The number of bytes | Name           | Content         |
+|---------------------|----------------|-----------------|
+| 2                   | DATA 1         | PM2.5 Low byte  |
+| 3                   | DATA 2         | PM2.5 High byte |
+| 4                   | DATA 3         | PM10 Low byte   |
+| 5                   | DATA 4         | PM10 High byte  |
+
+Store the bytes as `low_two_five`, `high_two_five`, `low_ten` and `high_ten` It's a good idea to reset the the input buffer in between reads of the sensor.
+
 --- /task ---
 
-
-CREATE A READING SERIAL DATA INGREDIENT TO GO HERE

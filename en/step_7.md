@@ -51,6 +51,8 @@ To read data from the sensor, you can use the `pyserial` library.
 
 [[[nix-python-reading-serial-data]]]
 
+--- /task ---
+
 --- task ---
 
 Use the `pyserial` library to read the bytes you are interested in.

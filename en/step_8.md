@@ -1,4 +1,4 @@
-## Develop - Calculate particulate matter concentrations.
+## Develop - Calculate particulate matter concentrations
 
 If you read the [datasheet for the sensor](https://cdn-reichelt.de/documents/datenblatt/X200/SDS011-DATASHEET.pdf) again, you should be able to find this section.
 

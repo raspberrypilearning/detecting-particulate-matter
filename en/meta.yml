@@ -7,5 +7,11 @@ copyedit: false
 last_tested: "2020-01-13"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Define
+  - title: Discover
+  - title: Design
+  - title: Decompose
+  - title: Devlop - Connect your sensor
+  - title: Develop - Read the sensor
+  - title: Develop - Calculate particulate matter concentrations
+  - title: Develop - Displaying the PM values

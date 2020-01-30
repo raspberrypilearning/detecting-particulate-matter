@@ -1,0 +1,19 @@
+title: how-cleans-your-air
+hero_image: images/banner.png
+description: how-cleans-your-air description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2020-01-13"
+steps:
+  - title: Introduction
+  - title: Define
+  - title: Discover
+  - title: Design
+  - title: Decompose
+  - title: Develop - Connect your sensor
+  - title: Develop - Read the sensor
+  - title: Develop - Calculate particulate matter concentrations
+  - title: Develop - Displaying the PM values
+  - title: Develop - Record your data to a csv
+  - title: Demonstrate

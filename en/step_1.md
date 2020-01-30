@@ -8,11 +8,15 @@
 
 In this project in the pathway, you will add a sensor to your air quality monitor, to detect particulate matter in the environment.
 
+![animated graph showing changing pm values](images/graph_animation.gif)
+
 --- /no-print ---
 
 --- print-only ---
 
-![Complete project](images/showcase_static.png)
+In this project in the pathway, you will add a sensor to your air quality monitor, to detect particulate matter in the environment.
+
+![graph showing changing pm values](images/static_graph.png)
 
 --- /print-only ---
 

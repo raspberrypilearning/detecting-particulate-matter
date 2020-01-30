@@ -2,9 +2,9 @@
 
 What are the steps you will need to complete in order to detect particulate matter in the air?
 
-1. Connect the SDS011 PM sensor
-2. Test that the sensor is working
-3. Write a Python script to Read the bytes from the SDS011 sensor
-4. Convert the bytes to a usable values
-5. Optionally alter the data to account for humidity
-6. Save the data to the air_quality file.
+1. Connect your SDS011 sensor
+1. Read the sensors raw data
+1. Calculate particulate matter concentrations
+1. Displaying the PM values
+1. Record your data to a csv
+1. Publish your data online

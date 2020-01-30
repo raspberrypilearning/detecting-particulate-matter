@@ -24,14 +24,24 @@ In this project in the pathway, you will add a sensor to your air quality monito
 ---
 title: What you will need
 ---
-### Hardware
 
+### Hardware
++ A Raspberry Pi
 + [An SDS011 particulate matter sensor](https://www.amazon.co.uk/CUHAWUDBA-Sensor-Precision-Quality-Detection/dp/B083ZNZWKW/ref=sr_1_2?keywords=sds011&qid=1579769294&sr=8-2)
 
 ### Software
 
++ [Pyserial](https://matplotlib.org/)
++ [Matplotlib](https://pyserial.readthedocs.io/en/latest/)
++ [Adafruit_IO](https://github.com/adafruit/Adafruit_IO_Python)
+
+```bash
+sudo pip3 install matplotlib pyserial adafruit_io
+```
 
 ### Downloads
+
++ [SDS011 Datasheet](https://cdn-reichelt.de/documents/datenblatt/X200/SDS011-DATASHEET.pdf)
 
 --- /collapse ---
 
@@ -41,6 +51,7 @@ title: What you will learn
 ---
 
 + How to read data from an SDS011 PM sensor
++ How to created animated 
 + How to present data on an IOT platform
 
 --- /collapse ---

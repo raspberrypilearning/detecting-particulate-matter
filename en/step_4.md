@@ -6,6 +6,5 @@ In your research you might have discovered that the SDS011 sensor sends 10 bytes
 
 In particular, you are interested in bytes 2 and 3 for the 2.5µm particles and bytes 4 and 5 for the 10µm particles.
 
-Your program will have to read these bytes over a set time period, convert them to integers, and then average their values. After that it will need to upload the data to an IOT platform or display the data graphically on your Raspberry Pi.
+Your program will have to read these bytes over a set time period, and convert them to integers. After that it will need to display and save the data as well as uploading the data to an IOT platform.
 
-Optionally, you can use the humidity data from the previous project to fine tune your particulate matter sensor's data.

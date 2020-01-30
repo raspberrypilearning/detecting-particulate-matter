@@ -11,7 +11,7 @@ steps:
   - title: Discover
   - title: Design
   - title: Decompose
-  - title: Devlop - Connect your sensor
+  - title: Develop - Connect your sensor
   - title: Develop - Read the sensor
   - title: Develop - Calculate particulate matter concentrations
   - title: Develop - Displaying the PM values

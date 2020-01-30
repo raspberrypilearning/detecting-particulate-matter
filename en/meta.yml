@@ -15,3 +15,5 @@ steps:
   - title: Develop - Read the sensor
   - title: Develop - Calculate particulate matter concentrations
   - title: Develop - Displaying the PM values
+  - title: Develop - Record your data to a csv
+  - title: Demonstrate

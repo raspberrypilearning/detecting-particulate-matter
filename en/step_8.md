@@ -9,6 +9,27 @@ PM10  value: PM10  (μg /m3) = ((PM10  high byte * 256) + PM10  low byte) / 10
 
 --- task ---
 
-Perform these calculations on your `low_two_five`, `high_two_five`, `low_ten` and `high_ten` variables. Store the values as `pm_two_five` and `pm_ten`
+Perform these calculations on your `low_two_five`, `high_two_five`, `low_ten` and `high_ten` variables. Store the values as `pm_two_five` and `pm_ten`.
 
 --- /task ---
+
+--- task ---
+
+Have your function return the `pm_two_five` and `pm_ten`.
+
+```python
+def collect_data():
+	
+	#Reset the input buffer
+	
+	#Read the data
+	
+	#Store the low and high bytes
+	
+	#Convert the bytes to integer PM values
+	
+	return pm_two_five, pm_ten
+```
+
+--- /task ---
+

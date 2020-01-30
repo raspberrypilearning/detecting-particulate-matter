@@ -55,7 +55,7 @@ To read data from the sensor, you can use the `pyserial` library.
 
 --- task ---
 
-Use the `pyserial` library to read the bytes you are interested in.
+Use the `pyserial` library to create a function that reads the bytes you are interested in.
 
 | The number of bytes | Name           | Content         |
 |---------------------|----------------|-----------------|
@@ -65,6 +65,18 @@ Use the `pyserial` library to read the bytes you are interested in.
 | 5                   | DATA 4         | PM10 High byte  |
 
 Store the bytes as `low_two_five`, `high_two_five`, `low_ten` and `high_ten` It's a good idea to reset the the input buffer in between reads of the sensor.
+
+Here's an outline of the function you want to create.
+
+```python
+def collect_data():
+	
+	#Reset the input buffer
+	
+	#Read the data
+	
+	#Store the low and high bytes
+```
 
 --- /task ---
 

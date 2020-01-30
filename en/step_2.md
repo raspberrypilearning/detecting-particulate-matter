@@ -12,6 +12,6 @@ Examples of particles less than 10µm in diameter exist in the air are dust and 
 
 Examples of particles less than 2.5µm are in the air are smoke and viruses.
 
-![graph showing the size of various types of particulate matter](https://en.wikipedia.org/wiki/File:Airborne-particulate-size-chart.svg#/media/File:Airborne-particulate-size-chart.svg)
+![graph showing the size of various types of particulate matter](https://en.wikipedia.org/wiki/File:Airborne-particulate-size-chart.svg)
 
 The SDS011 is a sensor that can detect particulate matter in the air. In this project you will use the sensor to record values for the particulate matter in your local area and upload the data to an Internet Of Things service, so that others can view and use your data.

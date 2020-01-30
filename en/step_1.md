@@ -51,7 +51,8 @@ title: What you will learn
 ---
 
 + How to read data from an SDS011 PM sensor
-+ How to created animated 
++ How to create animated graphs
++ How to store data in a csv sheet
 + How to present data on an IOT platform
 
 --- /collapse ---
